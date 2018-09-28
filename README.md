@@ -62,7 +62,7 @@ Although these activation functions are simple, even with just one hidden layer 
 
 <img align="left" width="600" height="600" src="https://github.com/edwisdom/bnn-hmc/blob/master/potential_energies.png">
 
-Figure 5: Potential energies over Hamiltonian Monte Carlo iterations for 3 different chains
+**Figure 5**: Potential energies over Hamiltonian Monte Carlo iterations for 3 different chains
 
 As we see in Figure 5, each of the chains of Hamiltonian Monte Carlo rapidly converge to low potential energy values, which means that the samples we're getting are from high probability-mass regions of the posterior. This is the primary reason why Hamiltonian Monte Carlo is preferred over Metropolis-style (MCMC) methods, since the latter is unlikely to explore a wide space while still remaining in high-probability regions. 
 
@@ -90,9 +90,15 @@ As we can see in Figure 6, each of the posterior samples wraps tightly around th
 
 <img align="left" width="600" height="600" src="https://github.com/edwisdom/bnn-hmc/blob/master/posterior_samples.png">
 
-Figure 7: 500 posterior function samples from a single BNN posterior trained with epsilon=0.001 and L=25
+**Figure 7**: 500 posterior function samples from a single BNN posterior trained with epsilon=0.001 and L=25
 
 Figure 7 shows how our posterior has much greater uncertainty at input points that are far away from its training data. Its estimates of these values are largely dominated by the prior. This kind of model gives us an edge over traditional point-estimate neural networks because they give a distribution over our parameters and allow us to quantify our certainty about predictions. These models have the potential to be both more interpretable and more capable of [detecting adversarial perturbations](https://arxiv.org/abs/1711.08244).
+
+<br />
+<br />
+<br />
+<br />
+<br />
 
 
 ## Future Work
