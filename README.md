@@ -71,6 +71,8 @@ To see an interactive demo of this principle, [see here](https://chi-feng.github
 <br />
 <br />
 <br />
+<br />
+<br />
 
 ### Posterior Shapes
 
