@@ -68,9 +68,9 @@ As we see in Figure 5, each of the chains of Hamiltonian Monte Carlo rapidly con
 
 To see an interactive demo of this principle, [see here](https://chi-feng.github.io/mcmc-demo/app.html#HamiltonianMC,banana).
 
-
-
-
+<br />
+<br />
+<br />
 
 ### Posterior Shapes
 
