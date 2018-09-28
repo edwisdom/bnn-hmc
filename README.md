@@ -6,7 +6,7 @@ These instructions will allow you to run this project on your local machine.
 
 ### Install Requirements
 
-Once you have a virtual environment in Python, you can simply install necessary packages with: `pip install requirements.txt`
+Once you have a virtual environment in Python, you can simply install necessary packages with: `pip install -r requirements.txt`
 
 ### Clone This Repository
 
